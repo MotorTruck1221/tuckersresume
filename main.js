@@ -49,7 +49,7 @@ scene.add(star)
 }
 Array(200).fill().forEach(addStar)
 
-const spaceTexture = new THREE.TextureLoader().load('https://i.ibb.co/P60WbS2/green-redspace.jpg');
+const spaceTexture = new THREE.TextureLoader().load('https://i.ibb.co/BPwGVdq/space.jpg');
 //christmas: https://i.ibb.co/P60WbS2/green-redspace.jpg
 //normal: https://i.ibb.co/BPwGVdq/space.jpg
 scene.background = spaceTexture;
