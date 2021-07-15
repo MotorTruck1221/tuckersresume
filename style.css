@@ -118,8 +118,10 @@ canvas {
 /*# sourceMappingURL=style.css.map */
 
 :root {
-  --dark-bg: green;
-  /* rgba(15, 15, 15, 0.95) */
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  /* rgba(15, 15, 15, 0.95)
+  holiday: green
+  */
   --spacing: 350px;
 
   font-family: brandon-grotesque, sans-serif;
@@ -130,7 +132,7 @@ canvas {
 
 main {
   width: 100vw;
-  color: red;
+  color: white;
   z-index: 99;
   position: absolute;
   width: 100%;
