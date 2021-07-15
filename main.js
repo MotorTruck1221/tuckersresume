@@ -24,12 +24,6 @@ const torus = new THREE.Mesh(geometry, material);
 
 scene.add(torus)
 
-const geometry = new THREE.CylinderGeometry( 10, 6 ,20 ,100)
-const material = new THREE.MeshStandardMaterial( { color: 0x4d4dff } );
-const cylinder = new THREE.Mesh(geometry, material);
-
-scene.add(cylinder)
-
 const pointLight = new THREE.PointLight(0xffffff)
 pointLight.position.set(20,20,20)
 const ambientLight = new THREE.AmbientLight(0xffffff);
