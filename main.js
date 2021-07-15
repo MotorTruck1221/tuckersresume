@@ -24,9 +24,9 @@ const torus = new THREE.Mesh(geometry, material);
 
 scene.add(torus)
 
-const pointLight = new THREE.PointLight(0x00FF00)
+const pointLight = new THREE.PointLight(0xffffff)
 pointLight.position.set(20,20,20)
-const ambientLight = new THREE.AmbientLight(0xff0000);
+const ambientLight = new THREE.AmbientLight(0xffffff);
 //green 00FF00
 //red ff0000 
 //normal ffffff
