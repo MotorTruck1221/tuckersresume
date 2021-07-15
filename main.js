@@ -24,7 +24,7 @@ const torus = new THREE.Mesh(geometry, material);
 
 scene.add(torus)
 
-const geometry = new THREE.CylinderGeometry(15, 15, 30)
+const geometry = new THREE.CylinderGeometry( 10, 6 ,20 ,100)
 const material = new THREE.MeshStandardMaterial( { color: 0x4d4dff } );
 const cylinder = new THREE.Mesh(geometry, material);
 
