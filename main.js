@@ -72,7 +72,7 @@ controls.update();
 
 
 
-const tuckerTexture = new THREE.TextureLoader().load('https://i.ibb.co/8XLyf9z/Tucker.jpg');
+const tuckerTexture = new THREE.TextureLoader().load('https://i.ibb.co/6Yzq1cz/126834510-10224860785925988-7224260675674436248-n.jpg" alt="126834510-10224860785925988-7224260675674436248-n');
 
 const tucker = new THREE.Mesh(
   new THREE.BoxGeometry(3,3,3),
